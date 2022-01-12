@@ -1,0 +1,26 @@
+<MaterialData version="1.0">
+	<Property name="shaderlighting">Pixel</Property>
+	<Property name="blendmode">Normal</Property>
+	<Property name="diffuse">0.00575411 0.00566999 0.00372564 1</Property>
+	<Property name="specularamount">0</Property>
+	<Property name="specularroughness">50</Property>
+	<Property name="opacity">75</Property>
+	<Property name="emissivecolor">1 1 1 1</Property>
+	<Property name="emissivepower">0</Property>
+	<Property name="bumpamount">0.5</Property>
+	<Property name="displaceamount">20</Property>
+	<Property name="translucentfalloff">1</Property>
+	<Property name="diffuselightwrap">0</Property>
+	<Property name="specularmodel">Default</Property>
+	<Property name="speculartint">1 1 1 1</Property>
+	<Property name="ior">1.5</Property>
+	<Property name="fresnelPower">0</Property>
+	<Property name="vertexcolors">False</Property>
+	<Property name="transparencymode">Default</Property>
+	<Property name="sourcepath"></Property>
+	<Property name="importid">Simple_Glass_1</Property>
+	<Property name="importfile">../models/VA_v6/VA_v6.import</Property>
+	<Property name="name"><![CDATA[materials/Simple_Glass_111]]></Property>
+	<Property name="type">Material</Property>
+	<Property name="path"><![CDATA[/home/greg/dev/neptune3-ui/apps/com.luxoft.vehicle/assets/3dCar/materials/Simple_Glass_111.materialdef]]></Property>
+</MaterialData>

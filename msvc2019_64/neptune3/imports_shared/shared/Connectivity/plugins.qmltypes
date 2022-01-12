@@ -1,0 +1,137 @@
+
+import QtQuick.tooling 1.2
+
+// This file describes the plugin-supplied types contained in the library.
+// It is used for QML tooling purposes only.
+//
+// This file was auto-generated with the QtIvi ivigenerator
+
+Module {
+    dependencies: ["QtIvi 1.0"]
+    Component {
+        name: "WiFi"
+        prototype: "QIviAbstractFeature"
+        exports: ["shared.Connectivity/WiFi 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "available"; type: "bool"; isReadonly: true  }
+        Property { name: "enabled"; type: "bool"; isReadonly: false  }
+        Property { name: "hotspotEnabled"; type: "bool"; isReadonly: false  }
+        Property { name: "hotspotSSID"; type: "string"; isReadonly: false  }
+        Property { name: "hotspotPassword"; type: "string"; isReadonly: false  }
+        Property { name: "accessPoints"; type: "QVariantList"; isReadonly: true  }
+        Property { name: "connectionStatus"; type: "ConnectivityModule::ConnectionStatus"; isReadonly: true  }
+        Property { name: "activeAccessPoint"; type: "QVariant"; isReadonly: true  }
+        Property { name: "errorString"; type: "string"; isReadonly: true  }
+        Signal {
+            name: "availableChanged"
+            Parameter { name: "available"; type: "bool" }
+        }
+        Signal {
+            name: "enabledChanged"
+            Parameter { name: "enabled"; type: "bool" }
+        }
+        Signal {
+            name: "hotspotEnabledChanged"
+            Parameter { name: "hotspotEnabled"; type: "bool" }
+        }
+        Signal {
+            name: "hotspotSSIDChanged"
+            Parameter { name: "hotspotSSID"; type: "string" }
+        }
+        Signal {
+            name: "hotspotPasswordChanged"
+            Parameter { name: "hotspotPassword"; type: "string" }
+        }
+        Signal {
+            name: "accessPointsChanged"
+            Parameter { name: "accessPoints"; type: "QVariantList" }
+        }
+        Signal {
+            name: "connectionStatusChanged"
+            Parameter { name: "connectionStatus"; type: "ConnectivityModule::ConnectionStatus" }
+        }
+        Signal {
+            name: "activeAccessPointChanged"
+            Parameter { name: "activeAccessPoint"; type: "QVariant" }
+        }
+        Signal {
+            name: "errorStringChanged"
+            Parameter { name: "errorString"; type: "string" }
+        }
+        Signal {
+            name: "credentialsRequested"
+            Parameter { name: "ssid"; type: "string" }
+        }
+        Method {
+            name: "connectToAccessPoint"
+            type: "QIviPendingReply<void>"
+            Parameter { name: "ssid"; type: "string" }
+        }
+        Method {
+            name: "disconnectFromAccessPoint"
+            type: "QIviPendingReply<void>"
+            Parameter { name: "ssid"; type: "string" }
+        }
+        Method {
+            name: "sendCredentials"
+            type: "QIviPendingReply<void>"
+            Parameter { name: "ssid"; type: "string" }
+            Parameter { name: "password"; type: "string" }
+        }
+        Method {
+            name: "setEnabled"
+            Parameter { name: "enabled"; type: "bool" }
+        }
+        Method {
+            name: "setHotspotEnabled"
+            Parameter { name: "hotspotEnabled"; type: "bool" }
+        }
+        Method {
+            name: "setHotspotSSID"
+            Parameter { name: "hotspotSSID"; type: "string" }
+        }
+        Method {
+            name: "setHotspotPassword"
+            Parameter { name: "hotspotPassword"; type: "string" }
+        }
+    }
+
+    Component {
+        name: "ConnectivityModule"
+        prototype: "QObject"
+        exports: ["shared.Connectivity/Connectivity 1.0"]
+        isCreatable: false
+        isSingleton: true
+        exportMetaObjectRevisions: [0]
+        Enum {
+            name: "ConnectionStatus"
+            values: {
+                "Connecting": 0,
+                "Connected": 1,
+                "Disconnecting": 2,
+                "Disconnected": 3
+            }
+        }
+        Enum {
+            name: "SecurityType"
+            values: {
+                "NoSecurity": 0,
+                "WEP": 1,
+                "WPA_PSK": 2,
+                "WPA_EAP": 3
+            }
+        }
+        Method {
+            name: "accessPoint"
+            type: "AccessPoint"
+            Parameter { name: "ssid"; type: "string" }
+            Parameter { name: "connected"; type: "bool" }
+            Parameter { name: "strength"; type: "int" }
+            Parameter { name: "security"; type: "ConnectivityModule::SecurityType" }
+        }
+        Method {
+            name: "accessPoint"
+            type: "AccessPoint"
+        }
+    }
+}

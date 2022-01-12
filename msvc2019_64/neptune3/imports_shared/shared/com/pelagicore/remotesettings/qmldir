@@ -1,0 +1,4 @@
+module shared.com.pelagicore.remotesettings
+plugin remotesettingsplugin
+classname RemoteSettingsQmlPlugin
+typeinfo plugins.qmltypes

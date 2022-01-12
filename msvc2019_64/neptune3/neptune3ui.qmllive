@@ -1,0 +1,10 @@
+{
+    "imports": [
+        "imports_shared"
+    ],
+    "imports": [
+        "imports_system"
+    ],
+    "main": "Main.qml",
+    "workspace": "."
+}

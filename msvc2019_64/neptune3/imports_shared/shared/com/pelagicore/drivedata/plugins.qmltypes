@@ -1,0 +1,338 @@
+
+import QtQuick.tooling 1.2
+
+// This file describes the plugin-supplied types contained in the library.
+// It is used for QML tooling purposes only.
+//
+// This file was auto-generated with the QtIvi ivigenerator
+
+Module {
+    dependencies: ["QtIvi 1.0"]
+    Component {
+        name: "InstrumentCluster"
+        prototype: "QIviAbstractFeature"
+        exports: ["shared.com.pelagicore.drivedata/InstrumentCluster 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "enableSimulation"; type: "bool"; isReadonly: false  }
+        Property { name: "speed"; type: "double"; isReadonly: false  }
+        Property { name: "speedLimit"; type: "double"; isReadonly: false  }
+        Property { name: "speedCruise"; type: "double"; isReadonly: false  }
+        Property { name: "ePower"; type: "double"; isReadonly: false  }
+        Property { name: "driveTrainState"; type: "int"; isReadonly: false  }
+        Property { name: "lowBeamHeadlight"; type: "bool"; isReadonly: false  }
+        Property { name: "highBeamHeadlight"; type: "bool"; isReadonly: false  }
+        Property { name: "fogLight"; type: "bool"; isReadonly: false  }
+        Property { name: "stabilityControl"; type: "bool"; isReadonly: false  }
+        Property { name: "seatBeltNotFastened"; type: "bool"; isReadonly: false  }
+        Property { name: "leftTurn"; type: "bool"; isReadonly: false  }
+        Property { name: "rightTurn"; type: "bool"; isReadonly: false  }
+        Property { name: "ABSFailure"; type: "bool"; isReadonly: false  }
+        Property { name: "parkBrake"; type: "bool"; isReadonly: false  }
+        Property { name: "tyrePressureLow"; type: "bool"; isReadonly: false  }
+        Property { name: "brakeFailure"; type: "bool"; isReadonly: false  }
+        Property { name: "airbagFailure"; type: "bool"; isReadonly: false  }
+        Property { name: "outsideTemperatureCelsius"; type: "double"; isReadonly: false  }
+        Property { name: "mileageKm"; type: "double"; isReadonly: false  }
+        Property { name: "drivingMode"; type: "int"; isReadonly: false  }
+        Property { name: "drivingModeRangeKm"; type: "int"; isReadonly: false  }
+        Property { name: "drivingModeECORangeKm"; type: "int"; isReadonly: false  }
+        Property { name: "navigationProgressPercents"; type: "double"; isReadonly: false  }
+        Property { name: "navigationRouteDistanceKm"; type: "double"; isReadonly: false  }
+        Property { name: "available"; type: "bool"; isReadonly: false  }
+        Signal {
+            name: "enableSimulationChanged"
+            Parameter { name: "enableSimulation"; type: "bool" }
+        }
+        Signal {
+            name: "speedChanged"
+            Parameter { name: "speed"; type: "double" }
+        }
+        Signal {
+            name: "speedLimitChanged"
+            Parameter { name: "speedLimit"; type: "double" }
+        }
+        Signal {
+            name: "speedCruiseChanged"
+            Parameter { name: "speedCruise"; type: "double" }
+        }
+        Signal {
+            name: "ePowerChanged"
+            Parameter { name: "ePower"; type: "double" }
+        }
+        Signal {
+            name: "driveTrainStateChanged"
+            Parameter { name: "driveTrainState"; type: "int" }
+        }
+        Signal {
+            name: "lowBeamHeadlightChanged"
+            Parameter { name: "lowBeamHeadlight"; type: "bool" }
+        }
+        Signal {
+            name: "highBeamHeadlightChanged"
+            Parameter { name: "highBeamHeadlight"; type: "bool" }
+        }
+        Signal {
+            name: "fogLightChanged"
+            Parameter { name: "fogLight"; type: "bool" }
+        }
+        Signal {
+            name: "stabilityControlChanged"
+            Parameter { name: "stabilityControl"; type: "bool" }
+        }
+        Signal {
+            name: "seatBeltNotFastenedChanged"
+            Parameter { name: "seatBeltNotFastened"; type: "bool" }
+        }
+        Signal {
+            name: "leftTurnChanged"
+            Parameter { name: "leftTurn"; type: "bool" }
+        }
+        Signal {
+            name: "rightTurnChanged"
+            Parameter { name: "rightTurn"; type: "bool" }
+        }
+        Signal {
+            name: "ABSFailureChanged"
+            Parameter { name: "ABSFailure"; type: "bool" }
+        }
+        Signal {
+            name: "parkBrakeChanged"
+            Parameter { name: "parkBrake"; type: "bool" }
+        }
+        Signal {
+            name: "tyrePressureLowChanged"
+            Parameter { name: "tyrePressureLow"; type: "bool" }
+        }
+        Signal {
+            name: "brakeFailureChanged"
+            Parameter { name: "brakeFailure"; type: "bool" }
+        }
+        Signal {
+            name: "airbagFailureChanged"
+            Parameter { name: "airbagFailure"; type: "bool" }
+        }
+        Signal {
+            name: "outsideTemperatureCelsiusChanged"
+            Parameter { name: "outsideTemperatureCelsius"; type: "double" }
+        }
+        Signal {
+            name: "mileageKmChanged"
+            Parameter { name: "mileageKm"; type: "double" }
+        }
+        Signal {
+            name: "drivingModeChanged"
+            Parameter { name: "drivingMode"; type: "int" }
+        }
+        Signal {
+            name: "drivingModeRangeKmChanged"
+            Parameter { name: "drivingModeRangeKm"; type: "int" }
+        }
+        Signal {
+            name: "drivingModeECORangeKmChanged"
+            Parameter { name: "drivingModeECORangeKm"; type: "int" }
+        }
+        Signal {
+            name: "navigationProgressPercentsChanged"
+            Parameter { name: "navigationProgressPercents"; type: "double" }
+        }
+        Signal {
+            name: "navigationRouteDistanceKmChanged"
+            Parameter { name: "navigationRouteDistanceKm"; type: "double" }
+        }
+        Signal {
+            name: "availableChanged"
+            Parameter { name: "available"; type: "bool" }
+        }
+        Method {
+            name: "setEnableSimulation"
+            Parameter { name: "enableSimulation"; type: "bool" }
+        }
+        Method {
+            name: "setSpeed"
+            Parameter { name: "speed"; type: "double" }
+        }
+        Method {
+            name: "setSpeedLimit"
+            Parameter { name: "speedLimit"; type: "double" }
+        }
+        Method {
+            name: "setSpeedCruise"
+            Parameter { name: "speedCruise"; type: "double" }
+        }
+        Method {
+            name: "setEPower"
+            Parameter { name: "ePower"; type: "double" }
+        }
+        Method {
+            name: "setDriveTrainState"
+            Parameter { name: "driveTrainState"; type: "int" }
+        }
+        Method {
+            name: "setLowBeamHeadlight"
+            Parameter { name: "lowBeamHeadlight"; type: "bool" }
+        }
+        Method {
+            name: "setHighBeamHeadlight"
+            Parameter { name: "highBeamHeadlight"; type: "bool" }
+        }
+        Method {
+            name: "setFogLight"
+            Parameter { name: "fogLight"; type: "bool" }
+        }
+        Method {
+            name: "setStabilityControl"
+            Parameter { name: "stabilityControl"; type: "bool" }
+        }
+        Method {
+            name: "setSeatBeltNotFastened"
+            Parameter { name: "seatBeltNotFastened"; type: "bool" }
+        }
+        Method {
+            name: "setLeftTurn"
+            Parameter { name: "leftTurn"; type: "bool" }
+        }
+        Method {
+            name: "setRightTurn"
+            Parameter { name: "rightTurn"; type: "bool" }
+        }
+        Method {
+            name: "setABSFailure"
+            Parameter { name: "ABSFailure"; type: "bool" }
+        }
+        Method {
+            name: "setParkBrake"
+            Parameter { name: "parkBrake"; type: "bool" }
+        }
+        Method {
+            name: "setTyrePressureLow"
+            Parameter { name: "tyrePressureLow"; type: "bool" }
+        }
+        Method {
+            name: "setBrakeFailure"
+            Parameter { name: "brakeFailure"; type: "bool" }
+        }
+        Method {
+            name: "setAirbagFailure"
+            Parameter { name: "airbagFailure"; type: "bool" }
+        }
+        Method {
+            name: "setOutsideTemperatureCelsius"
+            Parameter { name: "outsideTemperatureCelsius"; type: "double" }
+        }
+        Method {
+            name: "setMileageKm"
+            Parameter { name: "mileageKm"; type: "double" }
+        }
+        Method {
+            name: "setDrivingMode"
+            Parameter { name: "drivingMode"; type: "int" }
+        }
+        Method {
+            name: "setDrivingModeRangeKm"
+            Parameter { name: "drivingModeRangeKm"; type: "int" }
+        }
+        Method {
+            name: "setDrivingModeECORangeKm"
+            Parameter { name: "drivingModeECORangeKm"; type: "int" }
+        }
+        Method {
+            name: "setNavigationProgressPercents"
+            Parameter { name: "navigationProgressPercents"; type: "double" }
+        }
+        Method {
+            name: "setNavigationRouteDistanceKm"
+            Parameter { name: "navigationRouteDistanceKm"; type: "double" }
+        }
+        Method {
+            name: "setAvailable"
+            Parameter { name: "available"; type: "bool" }
+        }
+    }
+    Component {
+        name: "NavigationState"
+        prototype: "QIviAbstractFeature"
+        exports: ["shared.com.pelagicore.drivedata/NavigationState 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "mapCenter"; type: "var"; isReadonly: false  }
+        Property { name: "mapZoomLevel"; type: "double"; isReadonly: false  }
+        Property { name: "mapTilt"; type: "double"; isReadonly: false  }
+        Property { name: "mapBearing"; type: "double"; isReadonly: false  }
+        Property { name: "nextTurn"; type: "string"; isReadonly: false  }
+        Property { name: "nextTurnDistanceMeasuredIn"; type: "string"; isReadonly: false  }
+        Property { name: "nextTurnDistance"; type: "double"; isReadonly: false  }
+        Property { name: "routePoints"; type: "var"; isReadonly: false  }
+        Signal {
+            name: "mapCenterChanged"
+            Parameter { name: "mapCenter"; type: "var" }
+        }
+        Signal {
+            name: "mapZoomLevelChanged"
+            Parameter { name: "mapZoomLevel"; type: "double" }
+        }
+        Signal {
+            name: "mapTiltChanged"
+            Parameter { name: "mapTilt"; type: "double" }
+        }
+        Signal {
+            name: "mapBearingChanged"
+            Parameter { name: "mapBearing"; type: "double" }
+        }
+        Signal {
+            name: "nextTurnChanged"
+            Parameter { name: "nextTurn"; type: "string" }
+        }
+        Signal {
+            name: "nextTurnDistanceMeasuredInChanged"
+            Parameter { name: "nextTurnDistanceMeasuredIn"; type: "string" }
+        }
+        Signal {
+            name: "nextTurnDistanceChanged"
+            Parameter { name: "nextTurnDistance"; type: "double" }
+        }
+        Signal {
+            name: "routePointsChanged"
+            Parameter { name: "routePoints"; type: "var" }
+        }
+        Method {
+            name: "setMapCenter"
+            Parameter { name: "mapCenter"; type: "var" }
+        }
+        Method {
+            name: "setMapZoomLevel"
+            Parameter { name: "mapZoomLevel"; type: "double" }
+        }
+        Method {
+            name: "setMapTilt"
+            Parameter { name: "mapTilt"; type: "double" }
+        }
+        Method {
+            name: "setMapBearing"
+            Parameter { name: "mapBearing"; type: "double" }
+        }
+        Method {
+            name: "setNextTurn"
+            Parameter { name: "nextTurn"; type: "string" }
+        }
+        Method {
+            name: "setNextTurnDistanceMeasuredIn"
+            Parameter { name: "nextTurnDistanceMeasuredIn"; type: "string" }
+        }
+        Method {
+            name: "setNextTurnDistance"
+            Parameter { name: "nextTurnDistance"; type: "double" }
+        }
+        Method {
+            name: "setRoutePoints"
+            Parameter { name: "routePoints"; type: "var" }
+        }
+    }
+
+    Component {
+        name: "DriveDataModule"
+        prototype: "QObject"
+        exports: ["shared.com.pelagicore.drivedata/Drivedata 1.0"]
+        isCreatable: false
+        isSingleton: true
+        exportMetaObjectRevisions: [0]
+    }
+}

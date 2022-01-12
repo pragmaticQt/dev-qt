@@ -1,0 +1,4 @@
+module shared.Connectivity
+plugin connectivityplugin
+classname ConnectivityQmlPlugin
+typeinfo plugins.qmltypes

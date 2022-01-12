@@ -1,0 +1,209 @@
+
+import QtQuick.tooling 1.2
+
+// This file describes the plugin-supplied types contained in the library.
+// It is used for QML tooling purposes only.
+//
+// This file was auto-generated with the QtIvi ivigenerator
+
+Module {
+    dependencies: ["QtIvi 1.0"]
+    Component {
+        name: "UISettings"
+        prototype: "QIviAbstractFeature"
+        exports: ["shared.com.pelagicore.remotesettings/UISettings 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "language"; type: "string"; isReadonly: false  }
+        Property { name: "languages"; type: "QVariantList"; isReadonly: false  }
+        Property { name: "twentyFourHourTimeFormat"; type: "bool"; isReadonly: false  }
+        Property { name: "volume"; type: "double"; isReadonly: false  }
+        Property { name: "muted"; type: "bool"; isReadonly: false  }
+        Property { name: "balance"; type: "double"; isReadonly: false  }
+        Property { name: "theme"; type: "int"; isReadonly: false  }
+        Property { name: "accentColor"; type: "string"; isReadonly: false  }
+        Property { name: "rtlMode"; type: "bool"; isReadonly: false  }
+        Property { name: "door1Open"; type: "bool"; isReadonly: false  }
+        Property { name: "door2Open"; type: "bool"; isReadonly: false  }
+        Property { name: "roofOpenProgress"; type: "double"; isReadonly: false  }
+        Property { name: "trunkOpen"; type: "bool"; isReadonly: false  }
+        Property { name: "navigationMode"; type: "bool"; isReadonly: false  }
+        Property { name: "hideGauges"; type: "bool"; isReadonly: false  }
+        Property { name: "threeDGauges"; type: "bool"; isReadonly: false  }
+        Signal {
+            name: "languageChanged"
+            Parameter { name: "language"; type: "string" }
+        }
+        Signal {
+            name: "languagesChanged"
+            Parameter { name: "languages"; type: "QVariantList" }
+        }
+        Signal {
+            name: "twentyFourHourTimeFormatChanged"
+            Parameter { name: "twentyFourHourTimeFormat"; type: "bool" }
+        }
+        Signal {
+            name: "volumeChanged"
+            Parameter { name: "volume"; type: "double" }
+        }
+        Signal {
+            name: "mutedChanged"
+            Parameter { name: "muted"; type: "bool" }
+        }
+        Signal {
+            name: "balanceChanged"
+            Parameter { name: "balance"; type: "double" }
+        }
+        Signal {
+            name: "themeChanged"
+            Parameter { name: "theme"; type: "int" }
+        }
+        Signal {
+            name: "accentColorChanged"
+            Parameter { name: "accentColor"; type: "string" }
+        }
+        Signal {
+            name: "rtlModeChanged"
+            Parameter { name: "rtlMode"; type: "bool" }
+        }
+        Signal {
+            name: "door1OpenChanged"
+            Parameter { name: "door1Open"; type: "bool" }
+        }
+        Signal {
+            name: "door2OpenChanged"
+            Parameter { name: "door2Open"; type: "bool" }
+        }
+        Signal {
+            name: "roofOpenProgressChanged"
+            Parameter { name: "roofOpenProgress"; type: "double" }
+        }
+        Signal {
+            name: "trunkOpenChanged"
+            Parameter { name: "trunkOpen"; type: "bool" }
+        }
+        Signal {
+            name: "navigationModeChanged"
+            Parameter { name: "navigationMode"; type: "bool" }
+        }
+        Signal {
+            name: "hideGaugesChanged"
+            Parameter { name: "hideGauges"; type: "bool" }
+        }
+        Signal {
+            name: "threeDGaugesChanged"
+            Parameter { name: "threeDGauges"; type: "bool" }
+        }
+        Method {
+            name: "setLanguage"
+            Parameter { name: "language"; type: "string" }
+        }
+        Method {
+            name: "setLanguages"
+            Parameter { name: "languages"; type: "QVariantList" }
+        }
+        Method {
+            name: "setTwentyFourHourTimeFormat"
+            Parameter { name: "twentyFourHourTimeFormat"; type: "bool" }
+        }
+        Method {
+            name: "setVolume"
+            Parameter { name: "volume"; type: "double" }
+        }
+        Method {
+            name: "setMuted"
+            Parameter { name: "muted"; type: "bool" }
+        }
+        Method {
+            name: "setBalance"
+            Parameter { name: "balance"; type: "double" }
+        }
+        Method {
+            name: "setTheme"
+            Parameter { name: "theme"; type: "int" }
+        }
+        Method {
+            name: "setAccentColor"
+            Parameter { name: "accentColor"; type: "string" }
+        }
+        Method {
+            name: "setRtlMode"
+            Parameter { name: "rtlMode"; type: "bool" }
+        }
+        Method {
+            name: "setDoor1Open"
+            Parameter { name: "door1Open"; type: "bool" }
+        }
+        Method {
+            name: "setDoor2Open"
+            Parameter { name: "door2Open"; type: "bool" }
+        }
+        Method {
+            name: "setRoofOpenProgress"
+            Parameter { name: "roofOpenProgress"; type: "double" }
+        }
+        Method {
+            name: "setTrunkOpen"
+            Parameter { name: "trunkOpen"; type: "bool" }
+        }
+        Method {
+            name: "setNavigationMode"
+            Parameter { name: "navigationMode"; type: "bool" }
+        }
+        Method {
+            name: "setHideGauges"
+            Parameter { name: "hideGauges"; type: "bool" }
+        }
+        Method {
+            name: "setThreeDGauges"
+            Parameter { name: "threeDGauges"; type: "bool" }
+        }
+    }
+    Component {
+        name: "SystemUI"
+        prototype: "QIviAbstractFeature"
+        exports: ["shared.com.pelagicore.remotesettings/SystemUI 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "applicationICWindowSwitchCount"; type: "int"; isReadonly: false  }
+        Signal {
+            name: "applicationICWindowSwitchCountChanged"
+            Parameter { name: "applicationICWindowSwitchCount"; type: "int" }
+        }
+        Method {
+            name: "setApplicationICWindowSwitchCount"
+            Parameter { name: "applicationICWindowSwitchCount"; type: "int" }
+        }
+    }
+    Component {
+        name: "ConnectionMonitoring"
+        prototype: "QIviAbstractFeature"
+        exports: ["shared.com.pelagicore.remotesettings/ConnectionMonitoring 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "intervalMS"; type: "int"; isReadonly: false  }
+        Property { name: "counter"; type: "int"; isReadonly: false  }
+        Signal {
+            name: "intervalMSChanged"
+            Parameter { name: "intervalMS"; type: "int" }
+        }
+        Signal {
+            name: "counterChanged"
+            Parameter { name: "counter"; type: "int" }
+        }
+        Method {
+            name: "setIntervalMS"
+            Parameter { name: "intervalMS"; type: "int" }
+        }
+        Method {
+            name: "setCounter"
+            Parameter { name: "counter"; type: "int" }
+        }
+    }
+
+    Component {
+        name: "RemoteSettingsModule"
+        prototype: "QObject"
+        exports: ["shared.com.pelagicore.remotesettings/Remotesettings 1.0"]
+        isCreatable: false
+        isSingleton: true
+        exportMetaObjectRevisions: [0]
+    }
+}

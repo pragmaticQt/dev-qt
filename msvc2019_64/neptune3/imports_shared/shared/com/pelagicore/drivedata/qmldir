@@ -1,0 +1,4 @@
+module shared.com.pelagicore.drivedata
+plugin drivedataplugin
+classname DriveDataQmlPlugin
+typeinfo plugins.qmltypes

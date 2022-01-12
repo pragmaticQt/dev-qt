@@ -1,0 +1,12 @@
+#ifndef QT_QTAPPMANDBUS_MODULE_H
+#define QT_QTAPPMANDBUS_MODULE_H
+#include <QtAppManDBus/QtAppManDBusDepends>
+#include "abstractdbuscontextadaptor.h"
+#include "applicationmanagerdbuscontextadaptor.h"
+#include "dbusdaemon.h"
+#include "dbuspolicy.h"
+#include "notificationmanagerdbuscontextadaptor.h"
+#include "packagemanagerdbuscontextadaptor.h"
+#include "windowmanagerdbuscontextadaptor.h"
+#include "qtappmandbusversion.h"
+#endif

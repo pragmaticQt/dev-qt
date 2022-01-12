@@ -1,0 +1,25 @@
+#ifndef QT_QTIVICORE_MODULE_H
+#define QT_QTIVICORE_MODULE_H
+#include <QtIviCore/QtIviCoreDepends>
+#include "qtiviglobal.h"
+#include "qiviabstractfeature.h"
+#include "qiviabstractfeaturelistmodel.h"
+#include "qiviabstractzonedfeature.h"
+#include "qivifeatureinterface.h"
+#include "qivipagingmodel.h"
+#include "qivipagingmodelinterface.h"
+#include "qivipendingreply.h"
+#include "qiviproxyserviceobject.h"
+#include "qiviqueryterm.h"
+#include "qivisearchandbrowsemodel.h"
+#include "qivisearchandbrowsemodelinterface.h"
+#include "qiviserviceinterface.h"
+#include "qiviservicemanager.h"
+#include "qiviserviceobject.h"
+#include "qivisimulationengine.h"
+#include "qivisimulationproxy.h"
+#include "qivistandarditem.h"
+#include "qivizonedfeatureinterface.h"
+#include "qtivicoremodule.h"
+#include "qtivicoreversion.h"
+#endif

@@ -1,0 +1,11 @@
+QT.GammaRayLauncherUi.VERSION = 2.11.1
+QT.GammaRayLauncherUi.MAJOR_VERSION = 2
+QT.GammaRayLauncherUi.MINOR_VERSION = 11
+QT.GammaRayLauncherUi.PATCH_VERSION = 1
+QT.GammaRayLauncherUi.name = gammaray_launcher_ui
+QT.GammaRayLauncherUi.module = gammaray_launcher_ui
+QT.GammaRayLauncherUi.defines = 
+QT.GammaRayLauncherUi.includes = C:/Qt/5.15.2/msvc2019_64/include/gammaray C:/Qt/5.15.2/msvc2019_64/include/gammaray/..
+QT.GammaRayLauncherUi.private_includes =
+QT.GammaRayLauncherUi.libs = C:/Qt/5.15.2/msvc2019_64/lib
+QT.GammaRayLauncherUi.depends = core gui GammaRayLauncher

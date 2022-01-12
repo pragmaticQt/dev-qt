@@ -1,0 +1,15 @@
+QT.appman_main_private.VERSION = 5.15.1
+QT.appman_main_private.name = QtAppManMain
+QT.appman_main_private.module = Qt5AppManMain
+QT.appman_main_private.libs = $$QT_MODULE_LIB_BASE
+QT.appman_main_private.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtAppManMain $$QT_MODULE_INCLUDE_BASE/QtAppManMain/5.15.1 $$QT_MODULE_INCLUDE_BASE/QtAppManMain/5.15.1/QtAppManMain
+QT.appman_main_private.frameworks =
+QT.appman_main_private.bins = $$QT_MODULE_BIN_BASE
+QT.appman_main_private.depends = core network qml core_private gui quick appman_common_private appman_application_private appman_manager_private appman_package_private appman_notification_private appman_monitor_private appman_shared_main_private appman_intent_server_private appman_window_private dbus appman_dbus_private
+QT.appman_main_private.uses =
+QT.appman_main_private.module_config = v2 staticlib internal_module
+QT.appman_main_private.DEFINES = QT_APPMAN_MAIN_LIB
+QT.appman_main_private.enabled_features =
+QT.appman_main_private.disabled_features =
+QT_CONFIG +=
+QT_MODULES += appman_main

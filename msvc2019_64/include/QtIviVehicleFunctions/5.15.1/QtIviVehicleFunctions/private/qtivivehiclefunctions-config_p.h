@@ -1,0 +1,3 @@
+#define QT_FEATURE_vehiclefunctions_qtro_backend 1
+#define QT_FEATURE_vehiclefunctions_qtro_simulation_server 1
+#define QT_FEATURE_vehiclefunctions_simulation_backend 1

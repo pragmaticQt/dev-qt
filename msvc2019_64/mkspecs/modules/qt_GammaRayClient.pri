@@ -1,0 +1,11 @@
+QT.GammaRayClient.VERSION = 2.11.1
+QT.GammaRayClient.MAJOR_VERSION = 2
+QT.GammaRayClient.MINOR_VERSION = 11
+QT.GammaRayClient.PATCH_VERSION = 1
+QT.GammaRayClient.name = gammaray_client
+QT.GammaRayClient.module = gammaray_client
+QT.GammaRayClient.defines = 
+QT.GammaRayClient.includes = C:/Qt/5.15.2/msvc2019_64/include/gammaray C:/Qt/5.15.2/msvc2019_64/include/gammaray/..
+QT.GammaRayClient.private_includes =
+QT.GammaRayClient.libs = C:/Qt/5.15.2/msvc2019_64/lib
+QT.GammaRayClient.depends = core gui widgets network GammaRayCommon GammaRayUi

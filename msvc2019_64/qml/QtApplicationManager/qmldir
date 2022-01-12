@@ -1,0 +1,3 @@
+﻿module QtApplicationManager
+
+typeinfo plugins.qmltypes

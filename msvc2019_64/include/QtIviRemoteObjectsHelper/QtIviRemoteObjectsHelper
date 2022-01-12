@@ -1,0 +1,9 @@
+#ifndef QT_QTIVIREMOTEOBJECTSHELPER_MODULE_H
+#define QT_QTIVIREMOTEOBJECTSHELPER_MODULE_H
+#include <QtIviRemoteObjectsHelper/QtIviRemoteObjectsHelperDepends>
+#include "qivipagingmodelqtroadapter.h"
+#include "qiviremoteobjectpendingresult.h"
+#include "qiviremoteobjectreplicahelper.h"
+#include "qiviremoteobjectsourcehelper.h"
+#include "qtiviremoteobjectshelperversion.h"
+#endif

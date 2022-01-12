@@ -1,0 +1,15 @@
+QT.iviremoteobjects_helper_private.VERSION = 5.15.1
+QT.iviremoteobjects_helper_private.name = QtIviRemoteObjectsHelper
+QT.iviremoteobjects_helper_private.module = Qt5IviRemoteObjectsHelper
+QT.iviremoteobjects_helper_private.libs = $$QT_MODULE_LIB_BASE
+QT.iviremoteobjects_helper_private.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtIviRemoteObjectsHelper $$QT_MODULE_INCLUDE_BASE/QtIviRemoteObjectsHelper/5.15.1 $$QT_MODULE_INCLUDE_BASE/QtIviRemoteObjectsHelper/5.15.1/QtIviRemoteObjectsHelper
+QT.iviremoteobjects_helper_private.frameworks =
+QT.iviremoteobjects_helper_private.bins = $$QT_MODULE_BIN_BASE
+QT.iviremoteobjects_helper_private.depends = remoteobjects qml ivicore
+QT.iviremoteobjects_helper_private.uses =
+QT.iviremoteobjects_helper_private.module_config = v2 staticlib internal_module
+QT.iviremoteobjects_helper_private.DEFINES = QT_IVIREMOTEOBJECTS_HELPER_LIB
+QT.iviremoteobjects_helper_private.enabled_features =
+QT.iviremoteobjects_helper_private.disabled_features =
+QT_CONFIG +=
+QT_MODULES += iviremoteobjects_helper

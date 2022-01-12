@@ -1,0 +1,11 @@
+QT.GammaRayUi.VERSION = 2.11.1
+QT.GammaRayUi.MAJOR_VERSION = 2
+QT.GammaRayUi.MINOR_VERSION = 11
+QT.GammaRayUi.PATCH_VERSION = 1
+QT.GammaRayUi.name = gammaray_ui-qt5_15-MSVC-140-x86_64
+QT.GammaRayUi.module = gammaray_ui-qt5_15-MSVC-140-x86_64
+QT.GammaRayUi.defines = 
+QT.GammaRayUi.includes = C:/Qt/5.15.2/msvc2019_64/include/gammaray C:/Qt/5.15.2/msvc2019_64/include/gammaray/..
+QT.GammaRayUi.private_includes =
+QT.GammaRayUi.libs = C:/Qt/5.15.2/msvc2019_64/lib
+QT.GammaRayUi.depends = core gui widgets GammaRayCommon

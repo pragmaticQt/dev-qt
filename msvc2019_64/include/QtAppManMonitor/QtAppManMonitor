@@ -1,0 +1,8 @@
+#ifndef QT_QTAPPMANMONITOR_MODULE_H
+#define QT_QTAPPMANMONITOR_MODULE_H
+#include <QtAppManMonitor/QtAppManMonitorDepends>
+#include "processreader.h"
+#include "sysfsreader.h"
+#include "systemreader.h"
+#include "qtappmanmonitorversion.h"
+#endif

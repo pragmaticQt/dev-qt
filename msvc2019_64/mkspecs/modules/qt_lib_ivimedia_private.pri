@@ -1,0 +1,11 @@
+QT.ivimedia_private.VERSION = 5.15.1
+QT.ivimedia_private.name = QtIviMedia
+QT.ivimedia_private.module =
+QT.ivimedia_private.libs = $$QT_MODULE_LIB_BASE
+QT.ivimedia_private.includes = $$QT_MODULE_INCLUDE_BASE/QtIviMedia/5.15.1 $$QT_MODULE_INCLUDE_BASE/QtIviMedia/5.15.1/QtIviMedia
+QT.ivimedia_private.frameworks =
+QT.ivimedia_private.depends = core_private ivicore_private ivimedia
+QT.ivimedia_private.uses =
+QT.ivimedia_private.module_config = v2 internal_module
+QT.ivimedia_private.enabled_features = media_qtro_backend media_qtro_simulation_server media_simulation_backend taglib tuner_simulation_backend
+QT.ivimedia_private.disabled_features = system-taglib

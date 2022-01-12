@@ -1,0 +1,12 @@
+#ifndef QT_QTAPPMANWINDOW_MODULE_H
+#define QT_QTAPPMANWINDOW_MODULE_H
+#include <QtAppManWindow/QtAppManWindowDepends>
+#include "inprocesswindow.h"
+#include "touchemulation.h"
+#include "waylandcompositor.h"
+#include "waylandwindow.h"
+#include "window.h"
+#include "windowitem.h"
+#include "windowmanager.h"
+#include "qtappmanwindowversion.h"
+#endif

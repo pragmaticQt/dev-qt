@@ -1,0 +1,10 @@
+#ifndef QT_QTAPPMANINTENTSERVER_MODULE_H
+#define QT_QTAPPMANINTENTSERVER_MODULE_H
+#include <QtAppManIntentServer/QtAppManIntentServerDepends>
+#include "intent.h"
+#include "intentmodel.h"
+#include "intentserver.h"
+#include "intentserverrequest.h"
+#include "intentserversysteminterface.h"
+#include "qtappmanintentserverversion.h"
+#endif

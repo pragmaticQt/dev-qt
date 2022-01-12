@@ -1,0 +1,15 @@
+QT.ivimedia.VERSION = 5.15.1
+QT.ivimedia.name = QtIviMedia
+QT.ivimedia.module = Qt5IviMedia
+QT.ivimedia.libs = $$QT_MODULE_LIB_BASE
+QT.ivimedia.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtIviMedia
+QT.ivimedia.frameworks =
+QT.ivimedia.bins = $$QT_MODULE_BIN_BASE
+QT.ivimedia.depends = core ivicore
+QT.ivimedia.uses =
+QT.ivimedia.module_config = v2
+QT.ivimedia.DEFINES = QT_IVIMEDIA_LIB
+QT.ivimedia.enabled_features = ivimedia
+QT.ivimedia.disabled_features =
+QT_CONFIG +=
+QT_MODULES += ivimedia

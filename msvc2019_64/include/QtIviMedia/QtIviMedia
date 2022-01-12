@@ -1,0 +1,18 @@
+#ifndef QT_QTIVIMEDIA_MODULE_H
+#define QT_QTIVIMEDIA_MODULE_H
+#include <QtIviMedia/QtIviMediaDepends>
+#include "qtivimediaglobal.h"
+#include "qiviamfmtuner.h"
+#include "qiviamfmtunerbackendinterface.h"
+#include "qivimediadevice.h"
+#include "qivimediadevicediscoverymodel.h"
+#include "qivimediadevicediscoverymodelbackendinterface.h"
+#include "qivimediaindexercontrol.h"
+#include "qivimediaindexercontrolbackendinterface.h"
+#include "qivimediaplayer.h"
+#include "qivimediaplayerbackendinterface.h"
+#include "qiviplayableitem.h"
+#include "qiviplayqueue.h"
+#include "qivitunerstation.h"
+#include "qtivimediaversion.h"
+#endif

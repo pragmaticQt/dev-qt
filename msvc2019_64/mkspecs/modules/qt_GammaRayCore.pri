@@ -1,0 +1,11 @@
+QT.GammaRayCore.VERSION = 2.11.1
+QT.GammaRayCore.MAJOR_VERSION = 2
+QT.GammaRayCore.MINOR_VERSION = 11
+QT.GammaRayCore.PATCH_VERSION = 1
+QT.GammaRayCore.name = gammaray_core-qt5_15-MSVC-140-x86_64
+QT.GammaRayCore.module = gammaray_core-qt5_15-MSVC-140-x86_64
+QT.GammaRayCore.defines = 
+QT.GammaRayCore.includes = C:/Qt/5.15.2/msvc2019_64/include/gammaray C:/Qt/5.15.2/msvc2019_64/include/gammaray/..
+QT.GammaRayCore.private_includes =
+QT.GammaRayCore.libs = C:/Qt/5.15.2/msvc2019_64/lib
+QT.GammaRayCore.depends = core gui GammaRayCommon

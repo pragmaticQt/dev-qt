@@ -1,0 +1,13 @@
+#ifndef QT_QTAPPMANAPPLICATION_MODULE_H
+#define QT_QTAPPMANAPPLICATION_MODULE_H
+#include <QtAppManApplication/QtAppManApplicationDepends>
+#include "applicationinfo.h"
+#include "applicationinterface.h"
+#include "installationreport.h"
+#include "intentinfo.h"
+#include "packagedatabase.h"
+#include "packageinfo.h"
+#include "packagescanner.h"
+#include "yamlpackagescanner.h"
+#include "qtappmanapplicationversion.h"
+#endif

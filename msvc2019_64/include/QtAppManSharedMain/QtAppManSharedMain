@@ -1,0 +1,13 @@
+#ifndef QT_QTAPPMANSHAREDMAIN_MODULE_H
+#define QT_QTAPPMANSHAREDMAIN_MODULE_H
+#include <QtAppManSharedMain/QtAppManSharedMainDepends>
+#include "cpustatus.h"
+#include "frametimer.h"
+#include "gpustatus.h"
+#include "iostatus.h"
+#include "memorystatus.h"
+#include "monitormodel.h"
+#include "qmllogger.h"
+#include "sharedmain.h"
+#include "qtappmansharedmainversion.h"
+#endif

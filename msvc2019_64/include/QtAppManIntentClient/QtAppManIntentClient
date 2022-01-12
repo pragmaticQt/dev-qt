@@ -1,0 +1,9 @@
+#ifndef QT_QTAPPMANINTENTCLIENT_MODULE_H
+#define QT_QTAPPMANINTENTCLIENT_MODULE_H
+#include <QtAppManIntentClient/QtAppManIntentClientDepends>
+#include "intentclient.h"
+#include "intentclientrequest.h"
+#include "intentclientsysteminterface.h"
+#include "intenthandler.h"
+#include "qtappmanintentclientversion.h"
+#endif

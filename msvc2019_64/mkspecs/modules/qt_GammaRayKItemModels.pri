@@ -1,0 +1,11 @@
+QT.GammaRayKItemModels.VERSION = 2.11.1
+QT.GammaRayKItemModels.MAJOR_VERSION = 2
+QT.GammaRayKItemModels.MINOR_VERSION = 11
+QT.GammaRayKItemModels.PATCH_VERSION = 1
+QT.GammaRayKItemModels.name = gammaray_kitemmodels-qt5_15-MSVC-140-x86_64
+QT.GammaRayKItemModels.module = gammaray_kitemmodels-qt5_15-MSVC-140-x86_64
+QT.GammaRayKItemModels.defines = 
+QT.GammaRayKItemModels.includes = C:/Qt/5.15.2/msvc2019_64/include/gammaray C:/Qt/5.15.2/msvc2019_64/include/gammaray/..
+QT.GammaRayKItemModels.private_includes =
+QT.GammaRayKItemModels.libs = C:/Qt/5.15.2/msvc2019_64/lib
+QT.GammaRayKItemModels.depends = core

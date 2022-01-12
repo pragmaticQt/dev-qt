@@ -1,0 +1,11 @@
+#ifndef QT_QTAPPMANLAUNCHER_MODULE_H
+#define QT_QTAPPMANLAUNCHER_MODULE_H
+#include <QtAppManLauncher/QtAppManLauncherDepends>
+#include "dbusapplicationinterface.h"
+#include "dbusapplicationinterfaceextension.h"
+#include "dbusnotification.h"
+#include "intentclientdbusimplementation.h"
+#include "ipcwrapperobject.h"
+#include "launchermain.h"
+#include "qtappmanlauncherversion.h"
+#endif

@@ -1,0 +1,10 @@
+#ifndef QT_QTAPPMANMAIN_MODULE_H
+#define QT_QTAPPMANMAIN_MODULE_H
+#include <QtAppManMain/QtAppManMainDepends>
+#include "applicationinstaller.h"
+#include "configuration.h"
+#include "defaultconfiguration.h"
+#include "main.h"
+#include "windowframetimer.h"
+#include "qtappmanmainversion.h"
+#endif

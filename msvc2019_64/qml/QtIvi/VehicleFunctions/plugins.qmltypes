@@ -1,0 +1,274 @@
+
+import QtQuick.tooling 1.2
+
+// This file describes the plugin-supplied types contained in the library.
+// It is used for QML tooling purposes only.
+//
+// This file was auto-generated with the QtIvi ivigenerator
+
+Module {
+    dependencies: ["QtIvi 1.0"]
+    Component {
+        name: "QIviClimateControl"
+        prototype: "QIviAbstractZonedFeature"
+        exports: ["QtIvi.VehicleFunctions/ClimateControl 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "airConditioningEnabled"; type: "bool"; isReadonly: false  }
+        Property { name: "heaterEnabled"; type: "bool"; isReadonly: false  }
+        Property { name: "fanSpeedLevel"; type: "int"; isReadonly: false  }
+        Property { name: "steeringWheelHeater"; type: "int"; isReadonly: false  }
+        Property { name: "targetTemperature"; type: "double"; isReadonly: false  }
+        Property { name: "seatCooler"; type: "int"; isReadonly: false  }
+        Property { name: "seatHeater"; type: "int"; isReadonly: false  }
+        Property { name: "outsideTemperature"; type: "int"; isReadonly: false  }
+        Property { name: "outsideTemperatureLabel"; type: "string"; isReadonly: false  }
+        Property { name: "zoneSynchronizationEnabled"; type: "bool"; isReadonly: false  }
+        Property { name: "defrostEnabled"; type: "bool"; isReadonly: false  }
+        Property { name: "recirculationMode"; type: "QtIviVehicleFunctionsModule::RecirculationMode"; isReadonly: false  }
+        Property { name: "recirculationEnabled"; type: "bool"; isReadonly: false  }
+        Property { name: "recirculationSensitivityLevel"; type: "int"; isReadonly: false  }
+        Property { name: "climateMode"; type: "QtIviVehicleFunctionsModule::ClimateMode"; isReadonly: false  }
+        Property { name: "automaticClimateFanIntensityLevel"; type: "int"; isReadonly: false  }
+        Property { name: "airflowDirections"; type: "QtIviVehicleFunctionsModule::AirflowDirections"; isReadonly: false  }
+        Signal {
+            name: "airConditioningEnabledChanged"
+            Parameter { name: "airConditioningEnabled"; type: "bool" }
+        }
+        Signal {
+            name: "heaterEnabledChanged"
+            Parameter { name: "heaterEnabled"; type: "bool" }
+        }
+        Signal {
+            name: "fanSpeedLevelChanged"
+            Parameter { name: "fanSpeedLevel"; type: "int" }
+        }
+        Signal {
+            name: "steeringWheelHeaterChanged"
+            Parameter { name: "steeringWheelHeater"; type: "int" }
+        }
+        Signal {
+            name: "targetTemperatureChanged"
+            Parameter { name: "targetTemperature"; type: "double" }
+        }
+        Signal {
+            name: "seatCoolerChanged"
+            Parameter { name: "seatCooler"; type: "int" }
+        }
+        Signal {
+            name: "seatHeaterChanged"
+            Parameter { name: "seatHeater"; type: "int" }
+        }
+        Signal {
+            name: "outsideTemperatureChanged"
+            Parameter { name: "outsideTemperature"; type: "int" }
+        }
+        Signal {
+            name: "outsideTemperatureLabelChanged"
+            Parameter { name: "outsideTemperatureLabel"; type: "string" }
+        }
+        Signal {
+            name: "zoneSynchronizationEnabledChanged"
+            Parameter { name: "zoneSynchronizationEnabled"; type: "bool" }
+        }
+        Signal {
+            name: "defrostEnabledChanged"
+            Parameter { name: "defrostEnabled"; type: "bool" }
+        }
+        Signal {
+            name: "recirculationModeChanged"
+            Parameter { name: "recirculationMode"; type: "QtIviVehicleFunctionsModule::RecirculationMode" }
+        }
+        Signal {
+            name: "recirculationEnabledChanged"
+            Parameter { name: "recirculationEnabled"; type: "bool" }
+        }
+        Signal {
+            name: "recirculationSensitivityLevelChanged"
+            Parameter { name: "recirculationSensitivityLevel"; type: "int" }
+        }
+        Signal {
+            name: "climateModeChanged"
+            Parameter { name: "climateMode"; type: "QtIviVehicleFunctionsModule::ClimateMode" }
+        }
+        Signal {
+            name: "automaticClimateFanIntensityLevelChanged"
+            Parameter { name: "automaticClimateFanIntensityLevel"; type: "int" }
+        }
+        Signal {
+            name: "airflowDirectionsChanged"
+            Parameter { name: "airflowDirections"; type: "QtIviVehicleFunctionsModule::AirflowDirections" }
+        }
+        Method {
+            name: "setAirConditioningEnabled"
+            Parameter { name: "airConditioningEnabled"; type: "bool" }
+        }
+        Method {
+            name: "setHeaterEnabled"
+            Parameter { name: "heaterEnabled"; type: "bool" }
+        }
+        Method {
+            name: "setFanSpeedLevel"
+            Parameter { name: "fanSpeedLevel"; type: "int" }
+        }
+        Method {
+            name: "setSteeringWheelHeater"
+            Parameter { name: "steeringWheelHeater"; type: "int" }
+        }
+        Method {
+            name: "setTargetTemperature"
+            Parameter { name: "targetTemperature"; type: "double" }
+        }
+        Method {
+            name: "setSeatCooler"
+            Parameter { name: "seatCooler"; type: "int" }
+        }
+        Method {
+            name: "setSeatHeater"
+            Parameter { name: "seatHeater"; type: "int" }
+        }
+        Method {
+            name: "setOutsideTemperature"
+            Parameter { name: "outsideTemperature"; type: "int" }
+        }
+        Method {
+            name: "setOutsideTemperatureLabel"
+            Parameter { name: "outsideTemperatureLabel"; type: "string" }
+        }
+        Method {
+            name: "setZoneSynchronizationEnabled"
+            Parameter { name: "zoneSynchronizationEnabled"; type: "bool" }
+        }
+        Method {
+            name: "setDefrostEnabled"
+            Parameter { name: "defrostEnabled"; type: "bool" }
+        }
+        Method {
+            name: "setRecirculationMode"
+            Parameter { name: "recirculationMode"; type: "QtIviVehicleFunctionsModule::RecirculationMode" }
+        }
+        Method {
+            name: "setRecirculationEnabled"
+            Parameter { name: "recirculationEnabled"; type: "bool" }
+        }
+        Method {
+            name: "setRecirculationSensitivityLevel"
+            Parameter { name: "recirculationSensitivityLevel"; type: "int" }
+        }
+        Method {
+            name: "setClimateMode"
+            Parameter { name: "climateMode"; type: "QtIviVehicleFunctionsModule::ClimateMode" }
+        }
+        Method {
+            name: "setAutomaticClimateFanIntensityLevel"
+            Parameter { name: "automaticClimateFanIntensityLevel"; type: "int" }
+        }
+        Method {
+            name: "setAirflowDirections"
+            Parameter { name: "airflowDirections"; type: "QtIviVehicleFunctionsModule::AirflowDirections" }
+        }
+    }
+    Component {
+        name: "QIviWindowControl"
+        prototype: "QIviAbstractZonedFeature"
+        exports: ["QtIvi.VehicleFunctions/WindowControl 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property { name: "heaterMode"; type: "QtIviVehicleFunctionsModule::HeaterMode"; isReadonly: false  }
+        Property { name: "heater"; type: "bool"; isReadonly: true  }
+        Property { name: "state"; type: "QtIviVehicleFunctionsModule::WindowState"; isReadonly: true  }
+        Property { name: "blindMode"; type: "QtIviVehicleFunctionsModule::BlindMode"; isReadonly: false  }
+        Property { name: "blindState"; type: "QtIviVehicleFunctionsModule::WindowState"; isReadonly: true  }
+        Signal {
+            name: "heaterModeChanged"
+            Parameter { name: "heaterMode"; type: "QtIviVehicleFunctionsModule::HeaterMode" }
+        }
+        Signal {
+            name: "heaterChanged"
+            Parameter { name: "heater"; type: "bool" }
+        }
+        Signal {
+            name: "stateChanged"
+            Parameter { name: "state"; type: "QtIviVehicleFunctionsModule::WindowState" }
+        }
+        Signal {
+            name: "blindModeChanged"
+            Parameter { name: "blindMode"; type: "QtIviVehicleFunctionsModule::BlindMode" }
+        }
+        Signal {
+            name: "blindStateChanged"
+            Parameter { name: "blindState"; type: "QtIviVehicleFunctionsModule::WindowState" }
+        }
+        Method {
+            name: "open"
+            type: "QIviPendingReply<void>"
+        }
+        Method {
+            name: "close"
+            type: "QIviPendingReply<void>"
+        }
+        Method {
+            name: "setHeaterMode"
+            Parameter { name: "heaterMode"; type: "QtIviVehicleFunctionsModule::HeaterMode" }
+        }
+        Method {
+            name: "setBlindMode"
+            Parameter { name: "blindMode"; type: "QtIviVehicleFunctionsModule::BlindMode" }
+        }
+    }
+
+    Component {
+        name: "QtIviVehicleFunctionsModule"
+        prototype: "QObject"
+        exports: ["QtIvi.VehicleFunctions/VehicleFunctions 1.0"]
+        isCreatable: false
+        isSingleton: true
+        exportMetaObjectRevisions: [0]
+        Enum {
+            name: "AirflowDirections"
+            values: {
+                "Windshield": 1,
+                "Dashboard": 2,
+                "Floor": 4
+            }
+        }
+        Enum {
+            name: "RecirculationMode"
+            values: {
+                "RecirculationOff": 0,
+                "RecirculationOn": 1,
+                "AutoRecirculation": 2
+            }
+        }
+        Enum {
+            name: "ClimateMode"
+            values: {
+                "ClimateOff": 0,
+                "ClimateOn": 1,
+                "AutoClimate": 2
+            }
+        }
+        Enum {
+            name: "HeaterMode"
+            values: {
+                "HeaterOn": 0,
+                "HeaterOff": 1,
+                "AutoHeater": 2
+            }
+        }
+        Enum {
+            name: "BlindMode"
+            values: {
+                "BlindOpen": 0,
+                "BlindClosed": 1,
+                "AutoBlind": 2
+            }
+        }
+        Enum {
+            name: "WindowState"
+            values: {
+                "FullyOpen": 0,
+                "Open": 1,
+                "Closed": 2
+            }
+        }
+    }
+}

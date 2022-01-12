@@ -1,0 +1,4 @@
+module QtIvi.VehicleFunctions
+plugin qtivivehiclefunctionsplugin
+classname QtIviVehicleFunctionsQmlPlugin
+typeinfo plugins.qmltypes
